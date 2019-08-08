@@ -3,13 +3,16 @@ public class MiniDuckSimulator {
         Duck mal = new MallardDuck();
         mal.display();
         mal.performFly();
+        mal.performQuack();
 
         Duck rub = new RubberDuck();
         rub.display();
         rub.performFly();
+        rub.performQuack();
 
         Duck dec = new DecoyDuck();
         dec.display();
         dec.performFly();
+        dec.performQuack();
     }
 }
