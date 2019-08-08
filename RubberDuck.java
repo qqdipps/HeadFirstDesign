@@ -1,7 +1,7 @@
 public class RubberDuck extends Duck {
     public RubberDuck() {
-        flyBehavior = new FlyNoWay();
-        quackBehavior = new Squeak();
+        setFlyBehavior(new FlyNoWay());
+        setQuackBehavior(new Squeak());
     }
 
     public void display() {
